@@ -1,7 +1,7 @@
 from telebot.types import Message
 
-from config_data.config import DEFAULT_COMMANDS
-from loader import bot
+from core.config import DEFAULT_COMMANDS
+from core.loader import bot
 
 
 @bot.message_handler(commands=["help"])
